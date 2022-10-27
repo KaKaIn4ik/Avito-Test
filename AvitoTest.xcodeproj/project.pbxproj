@@ -15,6 +15,10 @@
 		5F0092192904323F007A61A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F0092172904323F007A61A8 /* LaunchScreen.storyboard */; };
 		5F009222290435C9007A61A8 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F009221290435C9007A61A8 /* Data.swift */; };
 		5F00922429043F8E007A61A8 /* PersonInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F00922329043F8E007A61A8 /* PersonInfo.swift */; };
+		5F218C80290AE93D00D71898 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F218C7F290AE93D00D71898 /* Alert.swift */; };
+		5F218C82290AE98000D71898 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F218C81290AE98000D71898 /* NetworkService.swift */; };
+		5F218C84290AEBD300D71898 /* NetworkCaching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F218C83290AEBD300D71898 /* NetworkCaching.swift */; };
+		5F218C86290AF14400D71898 /* INetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F218C85290AF14400D71898 /* INetwork.swift */; };
 		5FBF296129068A9B0086D7FC /* СachingInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF296029068A9B0086D7FC /* СachingInfo.swift */; };
 		5FBF296D290996490086D7FC /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF296C290996490086D7FC /* API.swift */; };
 /* End PBXBuildFile section */
@@ -30,6 +34,10 @@
 		5F00921A2904323F007A61A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F009221290435C9007A61A8 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		5F00922329043F8E007A61A8 /* PersonInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonInfo.swift; sourceTree = "<group>"; };
+		5F218C7F290AE93D00D71898 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		5F218C81290AE98000D71898 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		5F218C83290AEBD300D71898 /* NetworkCaching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkCaching.swift; sourceTree = "<group>"; };
+		5F218C85290AF14400D71898 /* INetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = INetwork.swift; sourceTree = "<group>"; };
 		5FBF296029068A9B0086D7FC /* СachingInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "СachingInfo.swift"; sourceTree = "<group>"; };
 		5FBF296C290996490086D7FC /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,6 +99,10 @@
 			isa = PBXGroup;
 			children = (
 				5FBF296C290996490086D7FC /* API.swift */,
+				5F218C7F290AE93D00D71898 /* Alert.swift */,
+				5F218C81290AE98000D71898 /* NetworkService.swift */,
+				5F218C83290AEBD300D71898 /* NetworkCaching.swift */,
+				5F218C85290AF14400D71898 /* INetwork.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -130,7 +142,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5F0092042904323A007A61A8 /* Build configuration list for PBXProject "test" */;
+			buildConfigurationList = 5F0092042904323A007A61A8 /* Build configuration list for PBXProject "AvitoTest" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -170,8 +182,12 @@
 				5F00922429043F8E007A61A8 /* PersonInfo.swift in Sources */,
 				5F00920D2904323A007A61A8 /* AppDelegate.swift in Sources */,
 				5FBF296129068A9B0086D7FC /* СachingInfo.swift in Sources */,
+				5F218C82290AE98000D71898 /* NetworkService.swift in Sources */,
+				5F218C86290AF14400D71898 /* INetwork.swift in Sources */,
 				5F00920F2904323A007A61A8 /* SceneDelegate.swift in Sources */,
+				5F218C84290AEBD300D71898 /* NetworkCaching.swift in Sources */,
 				5FBF296D290996490086D7FC /* API.swift in Sources */,
+				5F218C80290AE93D00D71898 /* Alert.swift in Sources */,
 				5F009222290435C9007A61A8 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -375,7 +391,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5F0092042904323A007A61A8 /* Build configuration list for PBXProject "test" */ = {
+		5F0092042904323A007A61A8 /* Build configuration list for PBXProject "AvitoTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5F00921B2904323F007A61A8 /* Debug */,

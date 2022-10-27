@@ -10,7 +10,7 @@ import Foundation
 struct CachingInfo: Codable {
 	let date: Date
 	
-	let company: Company
+	let avito: Avito
 	var isValid: Bool {
 		abs(date.timeIntervalSinceNow) < 3600
 		
